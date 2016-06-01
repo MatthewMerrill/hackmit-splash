@@ -246,6 +246,8 @@ section#splash {
     font-size: 1em;
     text-align: center;
     border: 0;
+    border-radius: 0;
+
 
     .item {
       width: 8em;
@@ -287,6 +289,8 @@ section#splash {
 section#sponsors {
   background-color: $orange;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   p {
     color: $white;
@@ -643,6 +647,11 @@ section#sponsor {
     padding-bottom: 10%;
   }
 
+  section#reg-now {
+    min-height: 0;
+    background: $green;
+  }
+
   .question {
     cursor: pointer;
   }
@@ -687,16 +696,17 @@ section#sponsor {
 
         .splash-logo-unit-cont {
           transform: rotate(0deg);
-          margin-top: 10vw;
+          margin-top: 5em;
         }
 
         .splash-img {
           transform: rotate(0deg);
-          width: 90vw;
+          height: 300px;
         }
 
         .title {
           font-size: 2.8em!important;
+          margin-top: 0;
         }
 
 				h2.subtitle {
@@ -725,6 +735,14 @@ section#sponsor {
 
   section h2 {
     font-size: 2.5em;
+  }
+
+  section#faq {
+    background-color: lighten($turquoise, 9%);
+
+    h2 {
+      margin-bottom: 0;
+    }
   }
 
   section#sponsor {
@@ -761,7 +779,7 @@ section#sponsor {
       div.splash-banner {
         .splash-logo-unit-cont {
           transform: rotate(0deg);
-          margin-top: 0;
+          margin-top: 2em;
         }
 
         .splash-img {
